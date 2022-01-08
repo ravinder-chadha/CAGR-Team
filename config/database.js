@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI  = "mongodb+srv://root:x1Y8AvX2AMdIdqLY@cluster0.1wss4.mongodb.net/hack?retryWrites=true&w=majority";
+const MONGO_URI  = process.env.DB_URL || "mongodb://localhost:27017/fit-tracker";
 
 exports.connect = () => {
   // Connecting to the database
