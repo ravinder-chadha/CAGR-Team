@@ -6,7 +6,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { v4: uuidv4 } = require("uuid");
 const bcrypt = require("bcryptjs");
-const port = 3000;
+const port = 8000;
 const app = express();
 
 app.use(express.json());

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI  = "mongodb://localhost:27017/hack";
+const MONGO_URI  = "mongodb+srv://root:x1Y8AvX2AMdIdqLY@cluster0.1wss4.mongodb.net/hack?retryWrites=true&w=majority";
 
 exports.connect = () => {
   // Connecting to the database
