@@ -1,4 +1,4 @@
-# earnhealth
+# Earnhealth
 
 A new Flutter project.
 
